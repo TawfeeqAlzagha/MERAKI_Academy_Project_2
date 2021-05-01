@@ -49,7 +49,20 @@ background-color: rgb(77, 76, 76);
     border-radius: 8px;
     display: inline-block;
     font-family: sans-serif;
-     
+    
+    border-style: none;
+    
+  }
+  
+
+  .dropdown_button2 {
+    background-color: goldenrod;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    font-family: sans-serif;
+    margin: 30px;
     border-style: none;
     
   }
