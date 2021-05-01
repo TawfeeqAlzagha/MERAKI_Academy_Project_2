@@ -8,6 +8,18 @@ background-color: rgb(77, 76, 76);
 
 
 }
+
+.dark-mode {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  border-style: hidden;
+
+  
+}
+
+
+
 .flex-container {
    display:block;
     background-image: url("book.png");
@@ -37,6 +49,8 @@ background-color: rgb(77, 76, 76);
     border-radius: 8px;
     display: inline-block;
     font-family: sans-serif;
+     
+    border-style: none;
     
   }
   
@@ -47,6 +61,7 @@ background-color: rgb(77, 76, 76);
     min-width: 90px;
     border-radius: 8px;
     font-family: sans-serif;
+   
     
     
   }
@@ -58,17 +73,18 @@ background-color: rgb(77, 76, 76);
    display:inherit;
    text-align: center;
    font-family: sans-serif;
+   
   
   }
   
-  .dropdown-content a:hover {background-color: darkslategray;}
+  .dropdown-content a:hover {background-color: goldenrod;}
   
-  .dropdown-content:hover .dropdown-content {display: block;}
+  .dropdown:hover .dropdown-content {display: block;}
   
   
 .first-th{
 
-  border: 1px solid black;
+  border: 2px solid black;
   border-radius: 8px;
   width: 200px;
   margin: 10px;
@@ -90,7 +106,7 @@ background-color: rgb(77, 76, 76);
 
 background-color: rgb(41, 40, 40);
 border-radius: 8px;
-border: 1px solid black;
+border: 2px solid black;
 height: 50px;
 font-size: 20px;
 font-family: sans-serif;
