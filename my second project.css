@@ -71,8 +71,8 @@ background-color: rgb(77, 76, 76);
   }
   
   .dropdown-content {
-    display: none;
-    position: absolute;
+    display:none;
+    
     background-color: white;
     min-width: 90px;
     border-radius: 8px;
