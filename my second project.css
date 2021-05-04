@@ -258,4 +258,49 @@ border-style:unset ;
 
 
 }
+
+.flex-container .search-container {
+  float: right;
+}
+
+.flex-container input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border-radius: 8px;
+  border: solid 1px goldenrod;
+
+}
+
+.flex-container .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.flex-container .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .flex-container .search-container {
+    float: none;
+  }
+  .flex-container a, .flex-container input[type=text], .flex-container .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .flex-container input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
   
